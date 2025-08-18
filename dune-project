@@ -5,7 +5,7 @@
 (generate_opam_files true)
 
 (source
- (gitlab arutonee/tacit))
+ (github arutonee1/tacit))
 
 (authors "arutonee <arutonee@proton.me>")
 
