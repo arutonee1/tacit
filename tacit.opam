@@ -2,14 +2,13 @@
 opam-version: "2.0"
 version: "1.0.0"
 synopsis: "OCaml combinators"
-description:
-  "A set of combinators from combinatory logic (and other useful functional utilities)."
+description: "A set of combinators from combinatory logic for OCaml."
 maintainer: ["arutonee <arutonee@proton.me>"]
 authors: ["arutonee <arutonee@proton.me>"]
 license: "MIT"
 tags: ["combinator"]
-homepage: "https://gitlab.com/arutonee/tacit"
-bug-reports: "https://gitlab.com/arutonee/tacit/-/issues"
+homepage: "https://github.com/arutonee/tacit"
+bug-reports: "https://github.com/arutonee/tacit/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.19"}
@@ -29,5 +28,5 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://gitlab.com/arutonee/tacit.git"
+dev-repo: "git+https://github.com/arutonee/tacit.git"
 x-maintenance-intent: ["(latest)"]
