@@ -1,0 +1,16 @@
+= tacit
+
+This is a set of combinators from combinatory logic for OCaml.
+
+`lib/tacit.ml` has a listing of all included combinators and their aliases.
+The `Tacit.Infix` module can be opened for easy access.
+It is recommended to alias the `Tacit` module as something easier to type, i.e. `module C = Tacit`.
+A recommended file heading may look as follows:
+[source,ocaml]
+----
+(* other imports *)
+module C = Tacit
+open C.Infix
+----
+
+If you wish to make any changes, feel free to make a issue and/or PR.
