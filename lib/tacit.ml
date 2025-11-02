@@ -110,6 +110,9 @@ let kite = ki
 let o a b = b (a b)
 let owl = o
 
+(* pair *)
+let pair a b = (a, b)
+
 (* phi *)
 let phi a b c d = a (b d) (c d)
 let converge = phi

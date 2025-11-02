@@ -15,7 +15,7 @@
 
 (package
  (name tacit)
- (version 1.0.0)
+ (version 1.1.0)
  (synopsis "OCaml combinators")
  (description "A set of combinators from combinatory logic for OCaml.")
  (depends ocaml dune)
